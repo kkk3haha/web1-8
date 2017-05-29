@@ -65,6 +65,11 @@ caption{
 	float:left;
 	margin-right:30px;
 }
+.exPC_p:after{
+	content:"";
+	clear:both;
+	display:block;
+}
 #logo ul{
 	overflow:hidden;
 }
