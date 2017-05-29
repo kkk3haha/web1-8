@@ -47,7 +47,7 @@ tbody th{
   border: 1px solid red;
   background-color: mistyrose;
   padding: 10px;
-  width: 120;
+  width: 120px;
   text-align: center;
 }
 
@@ -129,7 +129,7 @@ caption{
 	vertical-align:middle;
 	padding:10px 5px;
 }
-div.img#home{background-position:-342 0px;}
+div.img#home{background-position:-342px 0px;}
 div.img#gtune{background-position:0 -40px;}
 div.img#faq{background-position: 0 0px;}
 	
