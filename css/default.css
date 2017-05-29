@@ -35,15 +35,106 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+#MyPc{
+  border: 2px solid red;
+  border-collapse: collapse;
+}
+tbody th{
+  border: 1px solid red;
+  background-color: mistyrose;
+  padding: 10px;
+  width: 120;
+  text-align: center;
+}
+
+tbody td{
+  border: 1px solid red;
+  background-color: mistyrose;
+  padding: 5px;
+  width: 80px;
+  text-align: right;
+}
+caption{
+  padding: 5px;
+}
+.exPC{
+	float:left;
+	margin-right:30px;
+}
+#logo ul{
+	overflow:hidden;
+}
+#logo li{
+	display:table-cell;
+	vertical-align:middle;
+	float:left;
+	list-style-type:none;
+}
+#logo img{
+	width:100px;
+}
+
+.usingGPU{
+	display:inline;
+	list-style-type:none;
+}
+.usingGPU li:before{
+	content:" > ";
+}
+.usingGPU li:first-child:before{
+	content:"";
+}
+#gnav ul{
+	overflow:hidden;
+}
+#gnav li{
+	float:left;
+	width:300px;
+	border-right:white 1px solid;
+	list-style-type:none;
+}
+#gnav li:first-child{
+	border-left:white 1px solid;
+}
+#gnav a{
+	display:block;
+	padding:10px 0;
+	text-align:center;
+	text-decoration:none;
+	background: darkblue;
+	color:white;
+}
+#gnav a:after{
+	clear:both
+}
+#gnav div.img{
+	display:table-cell;
+	vertical-align:middle;
+	background:url(../img/sprite.png) no-repeat;
+	width:55px;
+	height:46px;
+}
+#gnav div.text{
+	display:table-cell;
+	vertical-align:middle;
+	padding:10px 5px;
+}
+div.img#home{background-position:-342 0px;}
+div.img#gtune{background-position:0 -40px;}
+div.img#faq{background-position: 0 0px;}
+	
+	
+#ganv a:hover{
+	background:lightblue;
+	color:black;
+}
+#gnav a.selected{
+	background:white;
+	color:darkblue;
+	font-weight:bold;
+}
+
